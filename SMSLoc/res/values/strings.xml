@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Come Get Me!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_lowsignal">Low Signal</string>
+    <string name="title_activity_droppedcalls">Dropped Calls</string>
+    <string name="title_activity_fluctsignal">Fluctuating Signal</string>
+    <string name="title_activity_contactdev">Contact Developer</string>
+    <string name="error_required"><font fgcolor="#ffff0000">Required</font></string>
+    <string name="name_required"><font fgcolor="#ffff0000">Your name is required to continue</font></string>
+    <string name="contactnumber_required"><font fgcolor="#ffff0000">A contact number is required to continue</font></string>
+    <string name="email_required"><font fgcolor="#ffff0000">Your email address is required to continue</font></string>
+    <string name="address_required"><font fgcolor="#ffff0000">A street address is required to continue</font></string>
+    <string name="city_required"><font fgcolor="#ffff0000">A city is required to continue</font></string>
+    <string name="state_required"><font fgcolor="#ffff0000">A state is required to continue</font></string>
+    <string name="zip_required"><font fgcolor="#ffff0000">A zip code is required to continue</font></string>
+    <string name="everywhereaddress_required"><font fgcolor="#ffff0000">A second street address is required to continue</font></string>
+    <string name="everywherecity_required"><font fgcolor="#ffff0000">A second city is required to continue</font></string>
+    <string name="everywherestate_required"><font fgcolor="#ffff0000">A second state is required to continue</font></string>
+    <string name="everywherezip_required"><font fgcolor="#ffff0000">A second zip code is required to continue</font></string>
+    <string name="starttime_required"><font fgcolor="#ffff0000">A time the problem started is required to continue</font></string>
+    <string name="startdate_required"><font fgcolor="#ffff0000">A date the problem started is required to continue</font></string>
+    <string name="othermtn_required"><font fgcolor="#ffff0000">Please enter another mobile number experiencing the issues in the area.</font></string>
+    <string name="details_required"><font fgcolor="#ffff0000">Please enter some details about the problems you are experiencing to continue</font></string>
+    <string name="address">Address:</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="enable_gps_dialog">GPS provider not enabled. Would you like to enable it?</string>
+    <string name="latlng">Lat/Long:</string>
+    <string name="unknown">--Unknown--</string>
+    <string name="not_support_gps">GPS provider not supported</string>
+    <string name="not_support_network">Network provider not supported</string>
+    <string name="use_fine_provider">Use GPS for location</string>
+    <string name="use_both_providers">Use network assisted location</string>
+    <string name="gps_error">The application is unable to get the location using only GPS on the device. This could be due to location or the device not having a line-of-sight connection to the satellite. Please try moving the device or using network assisted location by pressing OK below.<font fgcolor="red"> *Please note that network assisted location my not be as accurate as GPS only.*</font></string>
+	<string name="banner_ad_unit_id">ca-app-pub-8510441059627450/7249892937</string>
+</resources>

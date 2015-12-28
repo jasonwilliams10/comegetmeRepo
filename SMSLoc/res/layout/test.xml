@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/carbonfiber"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:scaleType="center"
+            android:text="Location Based SMS"
+            android:textColor="#ffffff"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/spacer01"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/TextView01"
+            android:layout_below="@+id/TextView01"
+            android:gravity="center_vertical|center_horizontal"
+            android:scaleType="center"
+            android:text=""
+            android:textSize="5dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/spacer01"
+            android:layout_below="@+id/spacer01"
+            android:gravity="center_vertical|center_horizontal"
+            android:scaleType="center"
+            android:text="Please select a contact by typing name:"
+            android:textColor="#ffffff" />
+
+        <AutoCompleteTextView
+            android:id="@+id/toNumber"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            android:ems="10"
+            android:textColor="#ffffff"
+            android:textColorHighlight="#000000"
+            android:textColorLink="#000000"
+            android:width="250dp" >
+
+            <requestFocus />
+        </AutoCompleteTextView>
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Enter custom message if desired above the location information, or choose an auto-generated one below:"
+            android:textColor="#ffffff" />
+
+        <Spinner
+            android:id="@+id/spnComments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/txtMessage"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:ems="10"
+            android:gravity="top"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/spacer02"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:scaleType="center"
+            android:text=""
+            android:textSize="5dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/disclaimer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/spacer01"
+            android:layout_below="@+id/spacer01"
+            android:gravity="center_vertical|center_horizontal"
+            android:scaleType="center"
+            android:text="*Disclaimer: The GPS location may possibly be off by approximately 10 meters in some coses.*"
+            android:textColor="#ff0000" />
+
+        <TextView
+            android:id="@+id/spacer03"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|center_horizontal"
+            android:scaleType="center"
+            android:text=""
+            android:textSize="5dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/Send"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="Send"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/provider_both"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="useCoarseFineProviders"
+            android:text="@string/use_both_providers" />
+
+        <Button
+            android:id="@+id/provider_fine"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_gravity="center_vertical|center_horizontal|center"
+            android:gravity="center_vertical|center_horizontal"
+            android:onClick="useFineProvider"
+            android:text="@string/use_fine_provider" />
+    </LinearLayout>
+
+</RelativeLayout>
